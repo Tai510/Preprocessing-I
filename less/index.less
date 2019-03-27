@@ -62,6 +62,26 @@ html {
 }
 
 
+
+@spacing-information : 3.0rem;
+@margin-spacing : 2.5rem;
+@text-font : 2.0rem;
+@text-family : 'Margarine', cursive;
+@head-family : 'Source Code Pro', monospace;
+
+
+body {
+	background-image: url("https://bay.newco.co/wp-content/uploads/sites/3/2016/06/bay-area-prepped-3.jpg");
+}
+
+.container {
+	width: 80%;
+	background: white;
+}
+
+
+
+// intro
 .intro-section {
 	nav {
 		display: flex;
@@ -72,12 +92,11 @@ html {
 		font-size: 2.0rem;
 		text-decoration: none;
 		color: black;
-		padding-top: 1.0rem;
+		padding-top: @spacing-information;
 		}
 	
 }
 
-// intro
 .intro {
 
 	padding-bottom: 3.0rem;
@@ -85,15 +104,17 @@ html {
 	h1 {
 		font-size: 6.0rem;
 		text-align: center;
+		font-family: @head-family;
 	}
 
 	p {
 		font-size: 3.0rem;
 		text-align: center;
+		font-family: @head-family;
 	}
 
 	hr {
-		width: 30%;
+		width: 15%;
 	
 	}
 }
@@ -127,4 +148,45 @@ i {
 	color: grey;
 }
 
+// credentials here
+
+.credentials  {
+ font-size: 1.5rem;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-left: 1.5rem;
+ padding-top: @spacing-information;
+ border-right: 1px solid black;
+ margin-right: 73%;
+ padding-left: @spacing-information;
+ margin-top: 10rem;
+ font-family: @text-family;
+ 
+ h2 {
+	font-size: 2.5rem;
+	padding-bottom: @spacing-information;
+}
+
+.education {
+	margin-top: @margin-spacing;
+	padding-bottom: @spacing-information;
+	font-size: @text-font;
+}
+
+.skills {
+	margin-top: @margin-spacing;
+	padding-bottom: @spacing-information;
+	font-size: @text-font;
+}
+
+.achievements {
+	margin-top: @margin-spacing;
+	padding-bottom: @spacing-information;
+	font-size: @text-font;
+}
+
+ }
+ 
+
+//  resume part
 

@@ -137,6 +137,13 @@ body {
 html {
   font-size: 62.5%;
 }
+body {
+  background-image: url("https://bay.newco.co/wp-content/uploads/sites/3/2016/06/bay-area-prepped-3.jpg");
+}
+.container {
+  width: 80%;
+  background: white;
+}
 .intro-section nav {
   display: flex;
   justify-content: space-evenly;
@@ -146,7 +153,7 @@ html {
   font-size: 2rem;
   text-decoration: none;
   color: black;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 .intro {
   padding-bottom: 3rem;
@@ -154,13 +161,15 @@ html {
 .intro h1 {
   font-size: 6rem;
   text-align: center;
+  font-family: 'Source Code Pro', monospace;
 }
 .intro p {
   font-size: 3rem;
   text-align: center;
+  font-family: 'Source Code Pro', monospace;
 }
 .intro hr {
-  width: 30%;
+  width: 15%;
 }
 .email {
   display: flex;
@@ -182,4 +191,35 @@ i {
   align-self: center;
   font-size: 4rem;
   color: grey;
+}
+.credentials {
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 1.5rem;
+  padding-top: 3rem;
+  border-right: 1px solid black;
+  margin-right: 73%;
+  padding-left: 3rem;
+  margin-top: 10rem;
+  font-family: 'Margarine', cursive;
+}
+.credentials h2 {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+.credentials .education {
+  margin-top: 2.5rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+.credentials .skills {
+  margin-top: 2.5rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+.credentials .achievements {
+  margin-top: 2.5rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
 }
