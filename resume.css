@@ -1,0 +1,61 @@
+h1 {
+    color: blue;
+}
+  /* .intro {
+    padding-bottom: 3rem;
+  }
+  .intro h1 {
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: grey;
+  }
+  .intro h1::first-letter {
+    color: red;
+    font-size: 9rem;
+    font-weight: bold;
+  }
+  .intro span {
+    color: black;
+  }
+  .intro p {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .intro hr {
+    width: 15%;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+  .email i {
+    color: #1F85DE;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact i {
+    color: #EB4646;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+  }
+  .address i {
+    color: #EBDE46;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile i {
+    color: #B146EB;
+  }
+  i {
+    align-self: center;
+    font-size: 4rem;
+    color: grey;
+  } */
