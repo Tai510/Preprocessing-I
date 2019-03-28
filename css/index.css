@@ -137,22 +137,19 @@ body {
 html {
   font-size: 62.5%;
 }
-body {
-  background-image: url("https://bay.newco.co/wp-content/uploads/sites/3/2016/06/bay-area-prepped-3.jpg");
-}
 .container {
-  width: 80%;
+  width: 100%;
   background: white;
 }
-.intro-section nav {
+nav {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.intro-section a {
+a {
   font-size: 2rem;
   text-decoration: none;
-  color: black;
+  color: grey;
   padding-top: 3rem;
 }
 .intro {
@@ -161,12 +158,21 @@ body {
 .intro h1 {
   font-size: 6rem;
   text-align: center;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Rajdhani', sans-serif;
+  color: grey;
+}
+.intro h1::first-letter {
+  color: red;
+  font-size: 9rem;
+  font-weight: bold;
+}
+.intro span {
+  color: black;
 }
 .intro p {
   font-size: 3rem;
   text-align: center;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Rajdhani', sans-serif;
 }
 .intro hr {
   width: 15%;
@@ -175,17 +181,29 @@ body {
   display: flex;
   flex-direction: column;
 }
+.email i {
+  color: #1F85DE;
+}
 .contact {
   display: flex;
   flex-direction: column;
+}
+.contact i {
+  color: #EB4646;
 }
 .address {
   display: flex;
   flex-direction: column;
 }
+.address i {
+  color: #EBDE46;
+}
 .profile {
   display: flex;
   flex-direction: column;
+}
+.profile i {
+  color: #B146EB;
 }
 i {
   align-self: center;
@@ -194,12 +212,10 @@ i {
 }
 .credentials {
   font-size: 1.5rem;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   margin-left: 1.5rem;
   padding-top: 3rem;
   border-right: 1px solid black;
-  margin-right: 73%;
+  margin-right: -54%;
   padding-left: 3rem;
   margin-top: 10rem;
   font-family: 'Margarine', cursive;
@@ -209,17 +225,45 @@ i {
   padding-bottom: 3rem;
 }
 .credentials .education {
-  margin-top: 2.5rem;
   padding-bottom: 3rem;
   font-size: 2rem;
 }
 .credentials .skills {
-  margin-top: 2.5rem;
   padding-bottom: 3rem;
   font-size: 2rem;
 }
 .credentials .achievements {
-  margin-top: 2.5rem;
   padding-bottom: 3rem;
   font-size: 2rem;
+}
+.halfline {
+  display: flex;
+}
+.halfline .resume {
+  font-size: 1.5rem;
+  justify-content: space-evenly;
+  margin-left: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 23rem;
+  margin-top: 10rem;
+  font-family: 'Margarine', cursive;
+}
+.halfline .resume h2 {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+.halfline .resume .bio {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.halfline .resume .exprience {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.halfline .resume .company {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.halfline .resume .company li {
+  padding-bottom: 1rem;
 }
