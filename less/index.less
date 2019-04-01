@@ -54,6 +54,204 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+
+
+@spacing-information : 3.0rem;
+@margin-spacing : 2.5rem;
+@text-font : 2.0rem;
+@text-family : 'Margarine', cursive;
+@head-family : 'Rajdhani', sans-serif;
+
+
+// body  img{
+// 	background-image: url("https://www.viamagazine.com/sites/default/files/styles/780x565/public/images/BayArea_Night.jpg?itok=U2Uqpbxx");
+// 	width: 80%;
+// }
+
+
+.container {
+	width: 100%;
+	background: white;
+}
+
+
+
+// navigation here
+
+	nav {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+		a {
+		font-size: 2.0rem;
+		text-decoration: none;
+		color: grey;
+		padding-top: @spacing-information;
+		}
+	
+
+.intro {
+
+	padding-bottom: 3.0rem;
+
+	h1 {
+		font-size: 6.0rem;
+		text-align: center;
+		font-family: @head-family;
+		color: grey;
+	}
+
+	h1::first-letter {
+		color: red;
+		font-size: 9.0rem;
+		font-weight: bold;
+	}
+
+	span {
+		color: black;
+	}
+
+	p {
+		font-size: 3.0rem;
+		text-align: center;
+		font-family: @head-family;
+	}
+
+	hr {
+		width: 15%;
+	
+	}
+}
+
+
+// header css
+
+.email {
+	display: flex;
+	flex-direction: column;
+
+	i {
+	color: #1F85DE;
+	}
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+
+	i {
+	color: #EB4646;
+	}
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+
+	i {
+	color: #EBDE46;
+	}
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+
+	i {
+	color: #B146EB;
+	}
+}
+
+i {
+	align-self: center;
+	font-size: 4.0rem;
+	color: grey;
+}
+
+// credentials here
+
+.credentials  {
+ font-size: 1.5rem;
+ margin-left: 1.5rem;
+ padding-top: @spacing-information;
+ border-right: 1px solid black;
+ margin-right: -30%;
+ padding-left: @spacing-information;
+ margin-top: 10rem;
+ font-family: @text-family;
+ 
+ h2 {
+	font-size: 2.5rem;
+	padding-bottom: @spacing-information;
+}
+
+.education {
+	// margin-top: @margin-spacing;
+	padding-bottom: @spacing-information;
+	font-size: @text-font;
+}
+
+.skills {
+	// margin-top: @margin-spacing;
+	padding-bottom: @spacing-information;
+	font-size: @text-font;
+}
+
+.achievements {
+	// margin-top: @margin-spacing;
+	padding-bottom: @spacing-information;
+	font-size: @text-font;
+}
+
+}
+ 
+//  resume part
+
+.halfline {
+	display: flex;
+
+	.resume {
+		font-size: 1.5rem;
+		justify-content: space-evenly;
+		margin-left: 1.5rem;
+		padding-top: @spacing-information;
+		padding-left: 23rem;
+		margin-top: 10rem;
+		font-family: @text-family;
+		
+	    h2 {
+		   font-size: 2.5rem;
+		   padding-bottom: @spacing-information;
+}
+
+	   .bio {
+		   font-size: @text-font;
+		   padding-bottom: @spacing-information;
+}
+
+	   .exprience {
+		   font-size: @text-font;
+		   padding-bottom: @spacing-information;
+}
+
+	   .company {
+		   font-size: @text-font;
+		   padding-bottom: @spacing-information;
+
+		   li {
+			padding-bottom: 1.0rem;
+		   }
+}
+
+}
+
 }
 
